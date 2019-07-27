@@ -46,7 +46,7 @@
   display: block;
   z-index: 1;
   background-repeat: repeat-x;
-  animation: city 10s linear infinite;
+  animation: city 20s linear infinite;
 
 }
 
@@ -72,16 +72,16 @@
 
 @keyframes car {
   100% {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
 
   }
 
   50% {
-    transform: translateY(1px);
+    transform: translateY(2px);
   }
 
   0% {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
 }
 
